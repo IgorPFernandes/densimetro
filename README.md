@@ -11,6 +11,7 @@ O projeto consiste em um densímetro baseado em um sensor ultrassônico HC-SR04,
 - **Faixa de Medição:** 2cm a 400cm
 - **Precisão:** 3mm
 - **Interface:** 4 pinos (VCC, Trig, Echo, GND)
+- **Portas Utilizadas:** TRIGGER_PIN (17), ECHO_PIN (19)
 
 ### 2. Célula de Carga Strain Gauge de 50kg
 - **Descrição:** Utilizada para medir a massa do objeto submerso.
@@ -18,20 +19,29 @@ O projeto consiste em um densímetro baseado em um sensor ultrassônico HC-SR04,
 - **Material:** Liga de alumínio
 - **Precisão:** 0.05% de FS (Full Scale)
 - **Interface:** 4 fios (Excitação+, Excitação-, Sinal+, Sinal-)
+- **Conexão:** Conectada à placa HX711
 
 ### 3. Placa HX711
 - **Descrição:** Amplificador de sinal para a célula de carga.
 - **Tensão de Operação:** 2.7V a 5V DC
 - **Corrente de Operação:** 1.6mA
 - **Interface:** 4 pinos (VCC, GND, DT, SCK)
-- **Precisão:** 24-bit ADC (Conversor Analógico-Digital)
+- **Portas Utilizadas:** Conexão aos pinos de ADC do microcontrolador
 
 ## Especificações do Projeto
 - **Tensão de Alimentação:** 5V DC (alimentação dos componentes)
-- **Microcontrolador:** Pico (RP2040) ou similar
+- **Microcontrolador:** BitDogLab
 - **Display:** SSD1306 OLED 128x64
 - **Conectividade:** Wi-Fi para envio de dados para o ThingSpeak
 - **LEDs Indicadores:** RGB para sinalização de status do sistema
+
+## Placa BitDogLab
+A placa BitDogLab é um microcontrolador versátil e poderoso baseado no chip RP2040, desenvolvido pela Raspberry Pi Foundation. Ela é ideal para projetos de IoT, automação e outros sistemas embarcados. Alguns dos destaques da placa são:
+- **Chip:** RP2040 (Dual-core ARM Cortex-M0+)
+- **Memória:** 264KB SRAM, 2MB Flash
+- **Conectividade:** Wi-Fi integrado
+- **Interfaces:** I2C, SPI, UART, ADC, GPIO
+- **Alimentação:** 5V USB ou fonte externa
 
 ## Funções e Recursos
 1. **Medição de Distância:**
@@ -57,4 +67,3 @@ Este densímetro pode ser utilizado em:
 - Laboratórios
 - Indústrias
 - Aplicações acadêmicas
-
