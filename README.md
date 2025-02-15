@@ -12,6 +12,7 @@ O projeto consiste em um densímetro baseado em um sensor ultrassônico HC-SR04,
 - **Precisão:** 3mm
 - **Interface:** 4 pinos (VCC, Trig, Echo, GND)
 - **Portas Utilizadas:** TRIGGER_PIN (17), ECHO_PIN (19)
+- **[Datasheet do HC-SR04](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)**
 
 ### 2. Célula de Carga Strain Gauge de 50kg
 - **Descrição:** Utilizada para medir a massa do objeto submerso.
@@ -20,6 +21,7 @@ O projeto consiste em um densímetro baseado em um sensor ultrassônico HC-SR04,
 - **Precisão:** 0.05% de FS (Full Scale)
 - **Interface:** 4 fios (Excitação+, Excitação-, Sinal+, Sinal-)
 - **Conexão:** Conectada à placa HX711
+- **[Datasheet da célula de carga de 50kg](https://www.datasheethub.com/50kg-half-bridge-load-cell-sensor/)**
 
 ### 3. Placa HX711
 - **Descrição:** Amplificador de sinal para a célula de carga.
@@ -27,6 +29,7 @@ O projeto consiste em um densímetro baseado em um sensor ultrassônico HC-SR04,
 - **Corrente de Operação:** 1.6mA
 - **Interface:** 4 pinos (VCC, GND, DT, SCK)
 - **Portas Utilizadas:** Conexão aos pinos de ADC do microcontrolador
+- **[Datasheet da placa HX711](https://www.digikey.com/htmldatasheets/production/1836471/0/0/1/hx711.html)**
 
 ## Especificações do Projeto
 - **Tensão de Alimentação:** 5V DC (alimentação dos componentes)
