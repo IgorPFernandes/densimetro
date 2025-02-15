@@ -60,7 +60,10 @@ A placa BitDogLab é um microcontrolador versátil e poderoso baseado no chip RP
    - Dados enviados para o ThingSpeak através da conexão Wi-Fi para monitoramento remoto.
 
 6. **Indicadores LED:**
-   - LEDs RGB indicam o status de operação (verde para operação normal, vermelho para erro, amarelo para aviso).
+   - LEDs RGB indicam o status de operação:
+     - **Verde:** Sistema pronto, pode clicar no botão A para enviar dados.
+     - **Vermelho:** Dados estão sendo enviados, não clique no botão A.
+     - **Amarelo:** Falha na conexão Wi-Fi.
 
 ## Aplicações
 Este densímetro pode ser utilizado em:
