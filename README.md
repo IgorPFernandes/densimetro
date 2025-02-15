@@ -12,7 +12,7 @@ O projeto consiste em um densímetro baseado em um sensor ultrassônico HC-SR04,
 - **Precisão:** 3mm
 - **Interface:** 4 pinos (VCC, Trig, Echo, GND)
 - **Portas Utilizadas:** TRIGGER_PIN (17), ECHO_PIN (19)
-- **[Datasheet do HC-SR04](chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)**
+- **[Datasheet do HC-SR04](https://drive.google.com/drive/folders/1TMXq3geET8TF6RbS5PApKYEYlExPhu4m?usp=sharing)**
 
 ### 2. Célula de Carga Strain Gauge de 50kg
 - **Descrição:** Utilizada para medir a massa do objeto submerso.
