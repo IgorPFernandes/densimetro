@@ -76,5 +76,5 @@ Este densímetro pode ser utilizado em:
 
 ## Primeira Tentativa de Dashboard com Dados Fictícios
 
-![Descrição da Imagem](nome_da_imagem.extensão)
+![Dashboard](Primeirodash_comdadosaleatórios.jpg)
 
