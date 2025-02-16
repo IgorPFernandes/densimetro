@@ -73,3 +73,8 @@ Este densímetro pode ser utilizado em:
 - Laboratórios
 - Indústrias
 - Aplicações acadêmicas
+
+## Primeira Tentativa de Dashboard com Dados Fictícios
+
+![Descrição da Imagem](nome_da_imagem.extensão)
+
