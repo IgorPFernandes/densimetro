@@ -54,10 +54,10 @@ A placa BitDogLab é um microcontrolador versátil e poderoso baseado no chip RP
    - Utiliza a célula de carga de 50kg e a placa HX711 para medir o peso do objeto.
 
 3. **Cálculo de Densidade:**
-   - Baseado na fórmula: Densidade = E/(Vdeslocado*gravidade)
+   - Baseado na fórmula: Densidade = Empuxo/(Volume deslocado*gravidade)
 
 4. **Interface de Usuário:**
-   - Display OLED mostra informações sobre a distância, massa e densidade em tempo real.
+   - Display OLED mostra informações sobre a distância e peso tempo real.
 
 5. **Envio de Dados:**
    - Dados enviados para o ThingSpeak através da conexão Wi-Fi para monitoramento remoto.
