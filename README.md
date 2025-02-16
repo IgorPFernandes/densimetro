@@ -78,4 +78,4 @@ Este densímetro pode ser utilizado em:
 
 ![Dashboard](Primeirodash_comdadosaleatórios.jpg)
 
-### Futuramente pretendo colocar uma regressão linear.
+### Futuramente pretendo colocar um cálculo de regressão linear.
