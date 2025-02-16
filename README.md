@@ -51,10 +51,10 @@ A placa BitDogLab é um microcontrolador versátil e poderoso baseado no chip RP
    - Utiliza o sensor HC-SR04 para medir a altura do líquido e calcular o volume submerso.
 
 2. **Medição de Massa:**
-   - Utiliza a célula de carga de 50kg e a placa HX711 para medir a massa do objeto.
+   - Utiliza a célula de carga de 50kg e a placa HX711 para medir o peso do objeto.
 
 3. **Cálculo de Densidade:**
-   - Baseado na fórmula: Densidade = Massa / Volume
+   - Baseado na fórmula: Densidade = E/(Vdeslocado*gravidade)
 
 4. **Interface de Usuário:**
    - Display OLED mostra informações sobre a distância, massa e densidade em tempo real.
