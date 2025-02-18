@@ -1,0 +1,11 @@
+Instruções:
+
+Aqui também tem o dashboard de powerBI, mas não tive muito tempo hábil não consegui enfeitar o dashboard, lembrando também que os dados são misturados de vários testes que eu fiz do ultrassônico então os valores não vão condizer com o mundo real, o mais importante é que o cálculo está de acordo com a teoria e os atuadores presentes estão em perfeita harmonia.
+
+Link GitHub:
+
+https://github.com/IgorPFernandes/densimetro/blob/main/README.md
+
+Link ThingSpeak: (tornei público)
+
+https://thingspeak.mathworks.com/channels/2841620/private_show
